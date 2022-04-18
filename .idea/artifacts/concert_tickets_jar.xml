@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="concert_tickets:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/concert_tickets_jar</output-path>
+    <root id="archive" name="concert_tickets.jar">
+      <element id="module-output" name="concert_tickets" />
+      <element id="extracted-dir" path="D:/mysql-connector-java-8.0.23/mysql-connector-java-8.0.23.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
