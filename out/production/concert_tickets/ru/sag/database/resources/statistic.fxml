@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #7EA1D7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sag.database.controller.StatisticController">
+   <children>
+      <AnchorPane layoutY="113.0" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="course_button" layoutX="14.0" layoutY="517.0" mnemonicParsing="false" style="-fx-background-color: FFF;" text="&lt;- Каталог курсов" underline="true">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+            <Label layoutX="361.0" layoutY="23.0" prefHeight="40.0" prefWidth="216.0" text="Личный кабинет">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="courseinfo" layoutX="361.0" layoutY="338.0" prefHeight="40.0" prefWidth="283.0" text="Финансы (13.02.22)">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="close_button" layoutX="773.0" layoutY="517.0" mnemonicParsing="false" style="-fx-background-color: FFF;" text="Завершить Х" underline="true">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Button>
+            <Label fx:id="workerinfo" layoutX="97.0" layoutY="95.0" prefHeight="40.0" prefWidth="283.0" text="Диденко Андрей Романович">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="orginfo" layoutX="671.0" layoutY="95.0" prefHeight="40.0" prefWidth="283.0" text="Консультант Плюс">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="workerinfo1" layoutX="169.0" layoutY="148.0" prefHeight="40.0" prefWidth="283.0" text="Бухгалтер">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="258.0" prefHeight="40.0" prefWidth="92.0" text="Курсы:">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="95.0" prefHeight="40.0" prefWidth="137.0" text="ФИО:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="148.0" prefHeight="40.0" prefWidth="137.0" text="Должность:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="503.0" layoutY="95.0" prefHeight="40.0" prefWidth="168.0" text="Организация:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="courseinfo1" layoutX="362.0" layoutY="298.0" prefHeight="40.0" prefWidth="283.0" text="Кредит (09.03.22)">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="503.0" layoutY="148.0" prefHeight="40.0" prefWidth="137.0" text="Тип:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="orginfo1" layoutX="564.0" layoutY="148.0" prefHeight="40.0" prefWidth="283.0" text="Коммерческая">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="210.0" prefHeight="40.0" prefWidth="137.0" text="Адрес:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="workerinfo11" layoutX="97.0" layoutY="210.0" prefHeight="40.0" prefWidth="466.0" text="г. Пенза, ул. Совхоз-техникум, 3-113, 440012">
+               <font>
+                  <Font name="System Italic" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="241.0" layoutY="33.0" style="-fx-font-size: 32;" text="Курсы повышения квалификации" />
+      <ImageView fitHeight="137.0" fitWidth="158.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Qualification_logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="username_field" layoutX="876.0" layoutY="41.0" prefHeight="31.0" prefWidth="92.0" text="drew" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
